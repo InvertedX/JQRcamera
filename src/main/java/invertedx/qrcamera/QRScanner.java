@@ -121,7 +121,7 @@ public class QRScanner extends JPanel implements
             layout.setVgap(0);
 
             QRScanner qrScanner = new QRScanner();
-            JFrame base = new JFrame("QR code scanner-Samourai");
+            JFrame base = new JFrame("QR code scanner");
             base.setResizable(false);
             base.add(qrScanner);
             base.setSize(640, 480);
